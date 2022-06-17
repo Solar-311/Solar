@@ -1,0 +1,93 @@
+----- 9/05 -----
+
+classe Del
+classe Solar
+classe Ui
+
+----- 11/05 -----
+
+Dvlp de la VM
+Dvlp du fichier Batch des téléchargements des modules
+Test des fonctions del_desktop -> erreur corrigé sur la detection du PATH du fichier actuel
+			       -> limite du script au chemin C:\\'User'\\Desktop
+			       -> Test passé approuvé
+
+----- 12/05 -----
+
+Classe Solar : avancée et recherches sur l'UAC en python
+
+----- 13/05 -----
+
+Test de la verification de l'OS (changement du nt en posix) -> Test passé approuvé
+Partie UAC :
+	Erreur trouvé -> problème d'execution en tant qu'admin (WinError5, accès refusé)
+
+----- 15/05 -----
+
+Mise en standby de la partie UAC (classe Solar)
+
+----- 18/05 -----
+
+Classe Ui terminé
+
+----- 21/05 -----
+
+Test du fichier Batch System.bat
+
+----- 24/05 -----
+
+Commencement et fin de la classe Progress (écran de chargement)
+
+----- 25/05 -----
+
+Mise en thread de Progress et de Ui
+Correction des bugs connus
+Modification de la classe System.bat + mise en standby
+Création du fichier Batch Fork.bat qui crée un fork bomb
+Amelioration de la classe Solar qui relie désormais tout les fichiers
+Tests sur la VM -> test passé
+
+----- 26/05 -----
+
+Création de la méthode save qui supprime les fichiers qui démarre avec l'ordinateur
+Ajoute le fichier fork.bat a ce dossier
+Ajout de méthodes qui supprime plus de dossiers
+
+----- 01/06 -----
+
+Modifications des affichages utilisateurs globaux
+Clarté des variables dans le code
+
+----- 08/06 -----
+
+Modification de la classe Solar
+Ajout de la classe Clean qui supprimer les repertoires
+mise en thread de la classe Clean dans Solar
+Test->passé
+
+----- 10/06 -----
+
+Ajout de plusieurs securité et du fichiers rapport des erreurs
+tests -> passé
+
+----- 14/06 -----
+
+Réorganisation complète du code
+
+----- 16/06 -----
+
+Résolution des problèmes connus
+Fichier Spam.py terminé
+
+----- 18/06 -----
+
+Ajout du son
+Finalisation du projet
+Correction des bugs
+Mise en threads des actions qui empechent l'utilisateur 
+de faire ce qu'il souhaite
+
+----- 20/06 -----
+
+Finalisation du projet, correction des bugs, agencement du programme...
+Ajout d'un raccourci qui lance les téléchargements et le programme main
